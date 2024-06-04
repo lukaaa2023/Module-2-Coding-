@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 30px;
+    color:red;
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px;
+}
+.meal, h2{
+    border: 2px solid black;
+}
+.meals{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+    
+}
+.meal{
+    position: relative;
+    padding: 50px 5px 5px;
+    margin: 10px;
+    width:350px;
+    background-color: #ddd;
+}
+h2{
+    width: fit-content;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
